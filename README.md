@@ -1,36 +1,73 @@
 # reinstall-macos
+
 when reinstall macos, build development environment quickly.
 
 # dev environment
 
 ## browser
+
 google-chrome
+
 google-chrome-canary
+
 Mozilla Firefox
-brave
+
+Brave
 
 ## language
-java
-go
-erlang
-elixir
-clojure
-node
-typescript
-reasonml
 
-## tools
-wget
+Java && Clojure
+
+Golang
+
+erlang && Elixir
+
+Nodejs
+
+Typescript
+
+Reasonml
+
+Ocaml
+
+Rust
+
+## editor
+
+NeoVim
+
+Atom
+
+Vscode
+
+## Android & iOS
+
 android-sdk
+
 android-studio
-atom
-visual-studio-code
-opam
-zookeeper
-maven
-glide
+
 xcode
 
+## Other
 
+ack
 
+cscope
 
+cloc
+
+zookeeper
+
+maven
+
+docker
+
+Hyper
+
+Fish shell
+
+Virtualbox
+
+Dash
+
+Github Desktop
