@@ -1,59 +1,82 @@
-#/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# install zsh
+echo "install oh-my-zsh"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-#brew tap homebrew/cask
+# install homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# browser
+# chrome
 echo "google-chrome"
 brew cask install google-chrome
-echo "google-chrome-canary"
-brew cask install google-chrome-canary
+
+# firefox
 echo "firefox"
 brew cask install firefox
+
+# brave
 echo "brave"
 brew cask install brave
 
-# language
+# java
 echo "java"
 brew cask install java
+
+# clojure
 echo "clojure"
 brew install leiningen
+
+# golang
 echo "golang"
 brew install go 
+
+# erlang
 echo "erlang"
 brew install erlang 
+
+# elixir
 echo "elixir"
 brew install elixir 
 
-## editor
+# neovim
 echo "nvim"
 brew install nvim
+
+# vscode
 echo "vscode"
 brew cask install visual-studio-code
 
 ## android 
-echo "android"
-brew cask install homebrew/cask-versions/java8
-brew cask install android-sdk
+echo "android-studio"
+#brew cask install homebrew/cask-versions/java8
+#brew cask install android-sdk
 #export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
 brew cask install android-studio
 
-##misc
+##sharp tools
 echo "ack"
 brew install ack
+
+# cscope
 echo "cscope"
 brew install cscope
-echo "zookeeper"
-brew install zookeeper
+
+# maven
 echo "maven"
 brew install maven
+
+# docker
 echo "docker"
 brew cask install docker
-echo "hyper" 
-brew cask install hyper 
+
+# fish
 echo "fish"
 brew cask install fish 
+
+# dash
 echo "dash"
 brew cask install dash 
+
+# github
 echo "github"
 brew cask install github 
 
