@@ -20,7 +20,7 @@ when reinstall macos, build development environment quickly.
 
 ## language
 
-- Java 
+- Java
 
 - Clojure
 
@@ -43,10 +43,6 @@ when reinstall macos, build development environment quickly.
 - Code
 
 ## Android & iOS
-
-- android-sdk
-
-- android-studio
 
 - xcode
 
