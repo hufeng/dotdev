@@ -7,6 +7,6 @@
   "license": "MIT",
   "dependencies": {
     "enquirer": "^2.3.1",
-    "shelljs": "^0.8.3"
+    "shelljs": "^0.8.5"
   }
 }
